@@ -35,8 +35,10 @@ import androidx.compose.ui.unit.sp
 fun PlayActivity(){
 Column(modifier = Modifier.fillMaxSize()) {
     HeaderSection()
-    Text(text = "Kepada Yth,")
-    Text(text = "Arya Dio Fenanto")
+    Text(text = "Kepada Yth,",
+        fontSize = 20.sp)
+    Text(text = "Arya Dio Fenanto",
+        fontSize = 20.sp)
     Spacer(modifier = Modifier.size(50.dp))
     DetailSurat(
         judul = "Nama", isinya = "Arya Dio Fenanto"
